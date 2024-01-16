@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootNode" prefHeight="507.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CustomerInserterController">
+   <children>
+      <Label layoutX="47.0" layoutY="41.0" prefHeight="17.0" prefWidth="187.0" text="Customer Number">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="103.0" prefHeight="17.0" prefWidth="187.0" text="Name">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="addBtn" layoutX="113.0" layoutY="453.0" mnemonicParsing="false" onAction="#addBtn" text="Add">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="custNumber" layoutX="47.0" layoutY="64.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter Number">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="custName" layoutX="47.0" layoutY="126.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter Name">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="47.0" layoutY="234.0" prefHeight="17.0" prefWidth="187.0" text="City">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="custAddress" layoutX="47.0" layoutY="194.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter Street Address">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="47.0" layoutY="164.0" prefHeight="17.0" prefWidth="187.0" text="Address">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="custCity" layoutX="47.0" layoutY="261.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter City">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="47.0" layoutY="301.0" prefHeight="17.0" prefWidth="187.0" text="State">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="custState" layoutX="47.0" layoutY="326.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter State Abbreviation">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="47.0" layoutY="364.0" prefHeight="17.0" prefWidth="187.0" text="Zip Code">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="custZipCode" layoutX="47.0" layoutY="388.0" prefHeight="25.0" prefWidth="187.0" promptText="Enter Zip">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <MenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="79.0" text="Menu">
+        <items>
+          <MenuItem fx:id="clearItem" mnemonicParsing="false" onAction="#clearItem" text="Clear" />
+          <MenuItem fx:id="exitItem" mnemonicParsing="false" onAction="#exitItem" text="Exit" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Nov 17 21:55:54 CST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0184-88e0-f25c-00000b93d230 
+on database directory C:\Users\Say Chaleon Vang\eclipse-workspace\CustomerInserter\src\CoffeeDB with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_341/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_341-b10
+user.dir=C:\Users\Say Chaleon Vang\eclipse-workspace\CustomerInserter\src
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
